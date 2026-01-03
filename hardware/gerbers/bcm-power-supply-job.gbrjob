@@ -5,17 +5,17 @@
       "Application": "Pcbnew",
       "Version": "9.0.3"
     },
-    "CreationDate": "2025-08-01T18:14:25+01:00"
+    "CreationDate": "2026-01-03T18:42:08+00:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "bcm-power-supply",
       "GUID": "62636d2d-706f-4776-9572-2d737570706c",
-      "Revision": "rev01"
+      "Revision": "rev02"
     },
     "Size": {
-      "X": 82.854,
-      "Y": 70.154
+      "X": 70.154,
+      "Y": 57.454
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
