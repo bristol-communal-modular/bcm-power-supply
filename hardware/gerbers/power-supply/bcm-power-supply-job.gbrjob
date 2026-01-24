@@ -3,19 +3,19 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "9.0.3"
+      "Version": "9.0.7"
     },
-    "CreationDate": "2026-01-03T18:42:08+00:00"
+    "CreationDate": "2026-01-24T13:01:46+00:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "bcm-power-supply",
       "GUID": "62636d2d-706f-4776-9572-2d737570706c",
-      "Revision": "rev02"
+      "Revision": "rev03"
     },
     "Size": {
-      "X": 70.154,
-      "Y": 57.454
+      "X": 72.05,
+      "Y": 62.05
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,

@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Power Distribution Board")
-		(date "2026-01-03")
-		(rev "rev02")
+		(date "2026-01-24")
+		(rev "rev03")
 		(company "Bristol Communal Modular")
 		(comment 2 "creativecommons.org/licenses/by/4.0/")
 		(comment 3 "License: CC BY 4.0")
@@ -194,206 +194,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector_Generic:Conn_01x04"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x04_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2844,16 +2644,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 80.01) (xy 222.25 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05a37154-05a7-4367-9ec1-b617f9189039")
-	)
-	(wire
-		(pts
 			(xy 139.7 93.98) (xy 139.7 97.79)
 		)
 		(stroke
@@ -2924,16 +2714,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 92.71) (xy 222.25 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1db25c95-1f28-4671-921a-83cce74d1b50")
-	)
-	(wire
-		(pts
 			(xy 91.44 48.26) (xy 91.44 52.07)
 		)
 		(stroke
@@ -2964,16 +2744,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 90.17) (xy 218.44 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c28051f-0387-4987-a964-e61f04fe19d3")
-	)
-	(wire
-		(pts
 			(xy 191.77 124.46) (xy 191.77 125.73)
 		)
 		(stroke
@@ -2981,16 +2751,6 @@
 			(type default)
 		)
 		(uuid "2f5b4540-7eb7-4af3-b522-32aa13a686b1")
-	)
-	(wire
-		(pts
-			(xy 227.33 85.09) (xy 227.33 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30fe91be-5f9f-4dae-9e44-6422feab7857")
 	)
 	(wire
 		(pts
@@ -3021,16 +2781,6 @@
 			(type default)
 		)
 		(uuid "37ffb0c3-2c15-479d-9b0c-e6a1e6aaf0bc")
-	)
-	(wire
-		(pts
-			(xy 218.44 85.09) (xy 227.33 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38368eae-c8f7-4012-9a53-134e7fe8146f")
 	)
 	(wire
 		(pts
@@ -3144,16 +2894,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 87.63) (xy 227.33 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63d37e7a-9aa2-44c1-8fed-6900b6ebede8")
-	)
-	(wire
-		(pts
 			(xy 72.39 130.81) (xy 72.39 128.27)
 		)
 		(stroke
@@ -3161,16 +2901,6 @@
 			(type default)
 		)
 		(uuid "668c574a-1613-453a-be48-268450eac787")
-	)
-	(wire
-		(pts
-			(xy 227.33 91.44) (xy 227.33 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a7316ab-46b4-4039-ad76-97f8bffc02f3")
 	)
 	(wire
 		(pts
@@ -3211,16 +2941,6 @@
 			(type default)
 		)
 		(uuid "71e19e2b-6c6a-4b08-9a99-d930a2d59de4")
-	)
-	(wire
-		(pts
-			(xy 222.25 82.55) (xy 218.44 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "735dc0ff-b826-46d7-b466-542979397888")
 	)
 	(wire
 		(pts
@@ -4042,81 +3762,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 213.36 85.09 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp yes)
-		(uuid "0e948287-7956-4593-8daa-cdd48cac2858")
-		(property "Reference" "J4"
-			(at 213.36 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 213.36 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_KK-396_A-41792-0004_1x04_P3.96mm_Horizontal"
-			(at 213.36 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 213.36 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 213.36 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c418409-161f-4248-84d9-c21762e54ebb")
-		)
-		(pin "2"
-			(uuid "2058978c-34ad-4980-9b6b-81ab3746506b")
-		)
-		(pin "3"
-			(uuid "2c291bfa-befb-4bf3-9d2f-ff862f8fbf5a")
-		)
-		(pin "4"
-			(uuid "b87f15b2-1cc4-4d75-bcd7-9070e340ebeb")
-		)
-		(instances
-			(project ""
-				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:-12V")
 		(at 72.39 151.13 180)
 		(unit 1)
@@ -4243,72 +3888,6 @@
 			(project "bcm-power-supply"
 				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-12V")
-		(at 222.25 92.71 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "15e15c08-4884-486c-9548-68decca29895")
-		(property "Reference" "#PWR025"
-			(at 222.25 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-12V"
-			(at 222.25 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-12V\""
-			(at 222.25 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0515db4f-e828-48b6-b88f-da24d5de9f37")
-		)
-		(instances
-			(project "bcm-power-supply"
-				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031"
-					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -6572,72 +6151,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 227.33 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a4e982a-190f-4725-bb6b-2ef547e8a4a2")
-		(property "Reference" "#PWR027"
-			(at 227.33 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 227.33 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 227.33 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 227.33 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 227.33 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6fb9275a-2186-4633-826f-05374e1078b1")
-		)
-		(instances
-			(project "bcm-power-supply"
-				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 58.42 144.78 90)
 		(unit 1)
@@ -7360,138 +6873,6 @@
 			(project ""
 				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031"
 					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 227.33 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b49e0328-d7e9-487e-9640-0c0c52d2d9e4")
-		(property "Reference" "#PWR026"
-			(at 227.33 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 227.33 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 227.33 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 227.33 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 227.33 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "61e9a2d6-2b47-4369-954f-239af948a610")
-		)
-		(instances
-			(project "bcm-power-supply"
-				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 222.25 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b51b7147-df51-4860-9129-61de8bfacc8f")
-		(property "Reference" "#PWR024"
-			(at 222.25 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 222.25 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 222.25 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fbb94546-276b-4582-a534-c275825eefa9")
-		)
-		(instances
-			(project "bcm-power-supply"
-				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031"
-					(reference "#PWR024")
 					(unit 1)
 				)
 			)
